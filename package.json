@@ -1,0 +1,10 @@
+{
+  "name": "teyvat-lore-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TeyvatLore/TeyvatLore-Data",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
