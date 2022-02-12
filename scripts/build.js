@@ -34,6 +34,7 @@ async function build () {
 async function makeContent () {
   await generate()
   await fs.copy('./content', './build/repo/content')
+  await fs.copy('./static', './build/repo/static')
   await fs.copy('./build/content_generated', './build/repo/content')
 }
 
